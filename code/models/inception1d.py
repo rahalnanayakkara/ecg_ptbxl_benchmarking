@@ -6,7 +6,7 @@ import math
 from fastai.layers import *
 from fastai.core import *
 
-from models.basic_conv1d import AdaptiveConcatPool1d,create_head1d
+from basic_conv1d import AdaptiveConcatPool1d,create_head1d
 
 ########################################################################################################
 # Inception time inspired by https://github.com/hfawaz/InceptionTime/blob/master/classifiers/inception.py and https://github.com/tcapelle/TimeSeries_fastai/blob/master/inception.py
